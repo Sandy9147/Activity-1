@@ -1,0 +1,117 @@
+**Python Programming Tasks:**
+Case Study Title:Unit Price Calculation
+USN:24BCAR0529
+Name:Vijay Kumar
+
+Algorithm:
+
+step 1: Start
+step 2: retrieve price from the user
+step 3: retrieve quantity(q) from the user
+step 4: calculate total. total = price * quantity
+step 5: print the total price
+step 6: Stop
+
+Code:
+
+price = int(input("enter price: "))
+q = int(input("enter quantity of the product: "))
+total = price * q
+print("The total price is: ", total )
+
+
+Output:
+
+enter price: 15
+enter quantity of the product: 20
+the total price is: 300
+
+
+
+Case Study Title:Find smallest of three numbers
+USN:24BCAR0525
+Name:Vansitha Jain
+Algorithm:
+Step1:Start
+Step2:Assign values to a,b and c
+Step3:Compare If a is less than or equal to b and c, then smallest = a
+Step4:Else if b is less than or equal to a and c, then smallest = b
+Step5:Else set smallest = c
+Step6:Print smallest
+Step7:Stop
+
+Code:
+a = int(input("Enter the first value:"))
+b = int(input("Enter the second value:"))
+c = int(input("Enter the third value:"))
+if a<=b and a<=c:
+  smallest = a
+elif b<=a and b<=c:
+  smallest = b
+else:
+  smallest = c
+print(smallest, "is the smallest")
+
+
+Output:
+Enter the first value:22
+Enter the second value:44
+Enter the third value:10
+10 is the smallest
+
+
+
+
+Case Study Title:Print squares from 1 to 10
+USN:24BCAR0479
+Name:prakash jaiswal
+Algorithm:
+step 1:start
+step 2:input a number n from 1 to n
+step 3:repeat for i from 1 to n
+step 4:calculate i*i
+step 5:print the result
+step 6:stop
+
+
+Code:
+n=int(input("enter a number:"))
+for i in range(1,n+1):
+print(i*i)
+
+output:
+enter a number:10
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+  
+  
+  
+  
+  
+  
+  
+Case Study Title: Function to find the min value
+USN:24BCAR0649
+Name:Sandesh Sharma
+
+Algorithm:
+step 1: Start
+step 2: Input the number list
+step 3: Initialize the minimum value using the built-in min() function
+step 4:print min_value 
+step 6: Stop
+
+Code:
+number = [15,10,20,48,7]
+min_value = min(number)
+print("The minimum value",min_value)
+Output: The minimum value 7
+
